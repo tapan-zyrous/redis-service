@@ -4,13 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-zyrous-service = {git = "https://x-token-auth:$HPV1Une6V7jRxKAzTpcVO7i8mxAGUDKeEyNCj5isFabKrzj-jrp4tLOMH4-pjJWvzyQEoZ8zPw-BPLB5hZhlAFb3nKOLfq-A4_4QvPltWhtKSF0CeVKQgGsKgSQ9PXvV@bitbucket.org/zyrous/python-service-package.git@4.0.0"}
+zyrous-service = {git = "https://x-token-auth:$xKfKyj_xHvB3srehrpaGKsSLGztlatUwUmxBn8-w9OkUMJ6WMTNeHmbuum8vRbDzxm7OQj4dgeNjJTN3mR8vWjFm_MwejAL6w2_YdWQvRYRGDGMPyXak9YerD8PF6rrc4DaMEd8w3VaAtvVvfbpK1mdMTHzk@bitbucket.org/zyrous/python-service-package.git@4.0.0"}
 strawberry-graphql = {extras = ["fastapi"], version = "*"}
 redis = {extras = ["hiredis"], version = "*"}
 
 [dev-packages]
 twine = "*"
 build = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.12"

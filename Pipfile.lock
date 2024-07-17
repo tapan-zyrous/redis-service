@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3bf44877c92cef9c30592b9b5a92a4c49717d0077c30896cdd0adc99c1e3ca2f"
+            "sha256": "848efc2c1d23799141985dd6919b58263ce43433e867e63a4e2fb04537e16834"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1545,7 +1545,7 @@
             "version": "==12.0"
         },
         "zyrous-service": {
-            "git": "https://x-token-auth:$HPV1Une6V7jRxKAzTpcVO7i8mxAGUDKeEyNCj5isFabKrzj-jrp4tLOMH4-pjJWvzyQEoZ8zPw-BPLB5hZhlAFb3nKOLfq-A4_4QvPltWhtKSF0CeVKQgGsKgSQ9PXvV@bitbucket.org/zyrous/python-service-package.git@4.0.0",
+            "git": "https://x-token-auth:$xKfKyj_xHvB3srehrpaGKsSLGztlatUwUmxBn8-w9OkUMJ6WMTNeHmbuum8vRbDzxm7OQj4dgeNjJTN3mR8vWjFm_MwejAL6w2_YdWQvRYRGDGMPyXak9YerD8PF6rrc4DaMEd8w3VaAtvVvfbpK1mdMTHzk@bitbucket.org/zyrous/python-service-package.git@4.0.0",
             "ref": "93e138b9e5519f5133d05ae19b90728b2118bcd2"
         }
     },
@@ -1694,6 +1694,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==8.0.0"
         },
+        "iniconfig": {
+            "hashes": [
+                "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3",
+                "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.0"
+        },
         "jaraco.classes": {
             "hashes": [
                 "sha256:47a024b51d0239c0dd8c8540c6c7f484be3b8fcf0b2d85c13825780d3b3f3acd",
@@ -1787,6 +1795,14 @@
             "markers": "python_version >= '3.6'",
             "version": "==1.10.0"
         },
+        "pluggy": {
+            "hashes": [
+                "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1",
+                "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==1.5.0"
+        },
         "pygments": {
             "hashes": [
                 "sha256:786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199",
@@ -1802,6 +1818,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.1.0"
+        },
+        "pytest": {
+            "hashes": [
+                "sha256:c434598117762e2bd304e526244f67bf66bbd7b5d6cf22138be51ff661980343",
+                "sha256:de4bb8104e201939ccdc688b27a89a7be2079b22e2bd2b07f806b6ba71117977"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==8.2.2"
         },
         "pywin32-ctypes": {
             "hashes": [
