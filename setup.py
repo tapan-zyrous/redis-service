@@ -52,7 +52,7 @@ setuptools.setup(
     author_email="tapan.parmar@zyrous.com",
     long_description_content_type='text/markdown',
     long_description=read_me_description,
-    package_dir={'service': 'service'},
+    package_dir={'storage': 'storage'},
     python_requires='>=3.8',
     install_requires=get_install_requirements(),
 )
