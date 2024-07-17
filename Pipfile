@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+zyrous-service = {git = "https://x-token-auth:$HPV1Une6V7jRxKAzTpcVO7i8mxAGUDKeEyNCj5isFabKrzj-jrp4tLOMH4-pjJWvzyQEoZ8zPw-BPLB5hZhlAFb3nKOLfq-A4_4QvPltWhtKSF0CeVKQgGsKgSQ9PXvV@bitbucket.org/zyrous/python-service-package.git@4.0.0"}
+strawberry-graphql = {extras = ["fastapi"], version = "*"}
+redis = {extras = ["hiredis"], version = "*"}
+
+[dev-packages]
+twine = "*"
+build = "*"
+
+[requires]
+python_version = "3.12"

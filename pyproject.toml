@@ -1,0 +1,16 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "5.3.0"
+tag_format = "$version"
+bump_message = "[skip ci] bump: version $current_version -> $new_version"
+update_changelog_on_bump = true
+
+[build-system]
+requires = ['setuptools>=42', 'toml>=0.10.1']
+build-backend = 'setuptools.build_meta'
+
+[tool.pytest.ini_options]
+pythonpath = [".", "s"]
+
+[tool.pylint.MASTER]
+ignore-paths=["^tests/.*$"]
