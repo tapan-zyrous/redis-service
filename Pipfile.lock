@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "848efc2c1d23799141985dd6919b58263ce43433e867e63a4e2fb04537e16834"
+            "sha256": "0f396176f26221556a4cff008a145c8e9b46575f76afc2acb22321d62817db67"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1545,7 +1545,7 @@
             "version": "==12.0"
         },
         "zyrous-service": {
-            "git": "https://x-token-auth:$xKfKyj_xHvB3srehrpaGKsSLGztlatUwUmxBn8-w9OkUMJ6WMTNeHmbuum8vRbDzxm7OQj4dgeNjJTN3mR8vWjFm_MwejAL6w2_YdWQvRYRGDGMPyXak9YerD8PF6rrc4DaMEd8w3VaAtvVvfbpK1mdMTHzk@bitbucket.org/zyrous/python-service-package.git@4.0.0",
+            "git": "https://x-token-auth:$jSLaE3h4IeQ76znOk8IufmuXzdLmv6ZcY_B8cP2Rqa7UIJVJkGo0489iBsZxH3Sjm6B41T_GEoK7bIZU7pzMOjqeA8mnW78QFv9SQyonRvh3JNjTDg7f-eyVCCLf1tDi-hxCL5uaAXd6HVyjM3-A_WvyitY=@bitbucket.org/zyrous/python-service-package.git@4.0.0",
             "ref": "93e138b9e5519f5133d05ae19b90728b2118bcd2"
         }
     },
